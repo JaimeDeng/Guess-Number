@@ -1,6 +1,5 @@
 
 let randomInt = Math.floor(Math.random() * (99 - 2 + 1)) + 2;
-randomInt = 5;
 let toElement = document.getElementById("to");
 let minElement = document.getElementById("minNum");
 let minText = minElement.textContent;
