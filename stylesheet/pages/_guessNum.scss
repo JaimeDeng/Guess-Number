@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(120, 119, 119);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .frame{
+        position: relative;
+        margin: auto;
+        margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 50vh;
+        width: 30vw;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        border: 1px rgb(77, 76, 83);
+        box-shadow: 10px 0px 40px rgb(75, 74, 74);
+
+        @keyframes rainbow-wave-animation {
+            0% {
+                background-position-x: 0%; /* 渐变起始位置 */
+            }
+            100% {
+                background-position-x: 1000%; /* 渐变结束位置 */
+            }
+        }
+
+        h4{
+            margin-top: 7vh;
+        }
+
+        .to{
+            font-size: 50px;
+            position: absolute;
+            top: 10.5vh;
+        }
+
+        .numFrame{
+            width: 70%;
+            display: flex;
+            justify-content:space-between;
+            margin-bottom: 10vh;
+            p{
+                font-size: 50px;
+            }
+        }
+
+        .input{
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding: 2px;
+            width: 50%;
+            height: 7%;
+            margin-bottom: 3vh;
+        }
+
+        .btn{
+            border-radius: 5px;
+            background-color: gray;
+            color: white;
+            height: 7%;
+            width: 30%;
+            padding: 2px;
+
+            &:hover{
+                background-color: rgb(215, 214, 206);
+                border: none;
+                color: black;
+            }
+            &:active{
+                background-color: rgb(160, 156, 146);
+            }
+        }
+    }
+}

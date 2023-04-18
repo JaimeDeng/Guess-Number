@@ -1,0 +1,10 @@
+//套件
+@import "../../node_modules/bootstrap/scss/functions";
+
+//要覆蓋bootstrap預設的檔案 *必須置於functions下面,bootstrap上面
+@import "../../stylesheet/helper/variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//自己寫的SCSS
+@import "../guestNum/stylesheet/pages/guessNum";
