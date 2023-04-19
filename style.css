@@ -10838,7 +10838,7 @@ body .frame {
   align-items: center;
   text-align: center;
   height: 50vh;
-  width: 30vw;
+  width: 25vw;
   background-color: rgb(243, 243, 243);
   border-radius: 10px;
   border: 1px rgb(77, 76, 83);
@@ -10846,10 +10846,10 @@ body .frame {
 }
 @keyframes rainbow-wave-animation {
   0% {
-    background-position-x: 0%; /* 渐变起始位置 */
+    background-position-x: 0%;
   }
   100% {
-    background-position-x: 1000%; /* 渐变结束位置 */
+    background-position-x: 1000%;
   }
 }
 body .frame h4, body .frame .h4 {
@@ -10861,7 +10861,7 @@ body .frame .to {
   top: 10.5vh;
 }
 body .frame .numFrame {
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10vh;
